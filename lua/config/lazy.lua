@@ -14,11 +14,14 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.test.core" },
     -- dap
     { import = "lazyvim.plugins.extras.dap.core" },
-    -- typescript
+    -- lang
     { import = "lazyvim.plugins.extras.lang.typescript" },
-    { import = "lazyvim.plugins.extras.linting.eslint" },
-    { import = "lazyvim.plugins.extras.formatting.prettier" },
+    { import = "lazyvim.plugins.extras.lang.markdown" },
     { import = "lazyvim.plugins.extras.lang.json" },
+    -- extra lint
+    { import = "lazyvim.plugins.extras.linting.eslint" },
+    -- exrta formatting
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
 
     -- load plugins folder
     { import = "plugins" },
